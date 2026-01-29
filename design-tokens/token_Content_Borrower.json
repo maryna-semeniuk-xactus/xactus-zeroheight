@@ -1,0 +1,30 @@
+{
+  "Current Address": {
+    "$type": "string",
+    "$value": "1234 Maplewood Drive, Springfield, IL, 62704"
+  },
+  "Date of Birth": {
+    "$type": "string",
+    "$value": "06-01-1981"
+  },
+  "Email": {
+    "$type": "string",
+    "$value": "ray.lewis.81@gmail.com"
+  },
+  "Full Name": {
+    "$type": "string",
+    "$value": "Raymond Lewis"
+  },
+  "Phone": {
+    "$type": "string",
+    "$value": "610-235-9987"
+  },
+  "Previous Address": {
+    "$type": "string",
+    "$value": "123 Main st., Palm Spring, IL, 21876"
+  },
+  "SSN": {
+    "$type": "string",
+    "$value": "123-45-9987"
+  }
+}
