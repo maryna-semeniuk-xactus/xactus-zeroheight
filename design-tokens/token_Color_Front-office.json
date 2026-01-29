@@ -1,0 +1,447 @@
+{
+  "Accent": {
+    "Error": {
+      "10": {
+        "$type": "color",
+        "$value": "#fdf7f6"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#a0231d"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "#f9e9e6"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "#f7d9d4"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "#e05952"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "#cb2d25"
+      }
+    },
+    "General": {
+      "10": {
+        "$type": "color",
+        "$value": "{Primitives.Purple.10}"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "{Primitives.Purple.100}"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "{Primitives.Purple.20}"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "{Primitives.Purple.80}"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "{Primitives.Purple.90}"
+      }
+    },
+    "Success": {
+      "10": {
+        "$type": "color",
+        "$value": "#f6faf5"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "#e7f1e4"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "#178a00"
+      }
+    },
+    "Warning": {
+      "10": {
+        "$type": "color",
+        "$value": "#fdf9f6"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "#f9eee6"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "#fe7c0a"
+      }
+    }
+  },
+  "Border": {
+    "Accented": {
+      "$type": "color",
+      "$value": "{Accent.General.90}"
+    },
+    "Error": {
+      "$type": "color",
+      "$value": "{Accent.Error.90}"
+    },
+    "Focused": {
+      "$type": "color",
+      "$value": "{Primitives.Neutral.90}"
+    },
+    "Inactive": {
+      "$type": "color",
+      "$value": "{Primitives.Neutral.50}"
+    },
+    "Rest": {
+      "$type": "color",
+      "$value": "{Primitives.Neutral.70}"
+    },
+    "Success": {
+      "$type": "color",
+      "$value": "{Accent.Success.90}"
+    },
+    "Warning": {
+      "$type": "color",
+      "$value": "{Accent.Warning.90}"
+    }
+  },
+  "Brand": {
+    "Cobalt": {
+      "$type": "color",
+      "$value": "#0072da"
+    },
+    "DarkPurple": {
+      "$type": "color",
+      "$value": "#5c068c"
+    },
+    "Emerald": {
+      "$type": "color",
+      "$value": "#008264"
+    },
+    "Gold": {
+      "$type": "color",
+      "$value": "#f4af23"
+    },
+    "LightPurple": {
+      "$type": "color",
+      "$value": "#a08bcb"
+    },
+    "Melon": {
+      "$type": "color",
+      "$value": "#f87c5d"
+    },
+    "Mint": {
+      "$type": "color",
+      "$value": "#28d2d1"
+    },
+    "Red": {
+      "$type": "color",
+      "$value": "#b21616"
+    },
+    "Rose": {
+      "$type": "color",
+      "$value": "#e63888"
+    }
+  },
+  "Button": {
+    "Default": {
+      "Accented": {
+        "Hover": {
+          "$type": "color",
+          "$value": "{Primitives.Purple.80}"
+        },
+        "Pressed": {
+          "$type": "color",
+          "$value": "{Primitives.Purple.100}"
+        },
+        "Rest": {
+          "$type": "color",
+          "$value": "{Primitives.Purple.90}"
+        }
+      },
+      "Subdued": {
+        "Focus": {
+          "$type": "color",
+          "$value": "{Primitives.Purple.30}"
+        },
+        "Hover": {
+          "$type": "color",
+          "$value": "{Primitives.Purple.10}"
+        },
+        "Pressed": {
+          "$type": "color",
+          "$value": "{Primitives.Purple.20}"
+        },
+        "Rest": {
+          "$type": "color",
+          "$value": "{Primitives.Neutral.White}"
+        }
+      }
+    },
+    "Destructive": {
+      "Accented": {
+        "Hover": {
+          "$type": "color",
+          "$value": "{Accent.Error.80}"
+        },
+        "Pressed": {
+          "$type": "color",
+          "$value": "{Accent.Error.100}"
+        },
+        "Rest": {
+          "$type": "color",
+          "$value": "{Accent.Error.90}"
+        }
+      },
+      "Subdued": {
+        "Focused": {
+          "$type": "color",
+          "$value": "{Accent.Error.30}"
+        },
+        "Hover": {
+          "$type": "color",
+          "$value": "{Accent.Error.10}"
+        },
+        "Pressed": {
+          "$type": "color",
+          "$value": "{Accent.Error.20}"
+        },
+        "Rest": {
+          "$type": "color",
+          "$value": "{Primitives.Neutral.White}"
+        }
+      }
+    },
+    "Inactive": {
+      "$type": "color",
+      "$value": "{Primitives.Neutral.50}"
+    }
+  },
+  "Icon": {
+    "Accented": {
+      "$type": "color",
+      "$value": "{Accent.General.90}"
+    },
+    "Default": {
+      "$type": "color",
+      "$value": "{Primitives.Neutral.80}"
+    },
+    "Error": {
+      "$type": "color",
+      "$value": "{Accent.Error.90}"
+    },
+    "Inactive": {
+      "$type": "color",
+      "$value": "{Primitives.Neutral.50}"
+    },
+    "OnDark": {
+      "$type": "color",
+      "$value": "{Primitives.Neutral.White}"
+    },
+    "Success": {
+      "$type": "color",
+      "$value": "{Accent.Success.90}"
+    },
+    "Warning": {
+      "$type": "color",
+      "$value": "{Accent.Warning.90}"
+    }
+  },
+  "Primitives": {
+    "Neutral": {
+      "10": {
+        "$type": "color",
+        "$value": "#f3f5f6"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#171a23"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "#e9ecef"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "#d9dce0"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "#c9ccd2"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "#a9adb6"
+      },
+      "60": {
+        "$type": "color",
+        "$value": "#898f9a"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "#616975"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "#495462"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "#2a3646"
+      },
+      "White": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "Purple": {
+      "10": {
+        "$type": "color",
+        "$value": "#fbf8fc"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#420066"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "#f5f0f8"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "#ebe1f1"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "#e2d2ea"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "#cfb4dd"
+      },
+      "60": {
+        "$type": "color",
+        "$value": "#b68fcb"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "#9e6aba"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "#8139a9"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "#5c068c",
+        "$description": "Default Xactus Purple"
+      }
+    }
+  },
+  "Surface": {
+    "Dark": {
+      "$type": "color",
+      "$value": "{Primitives.Neutral.90}"
+    },
+    "Elevation": {
+      "1": {
+        "$type": "color",
+        "$value": "{Primitives.Neutral.White}"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "{Primitives.Neutral.10}"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "{Primitives.Neutral.20}"
+      }
+    },
+    "Hover": {
+      "$type": "color",
+      "$value": "#f3f5f666"
+    },
+    "Subdued": {
+      "$type": "color",
+      "$value": "{Primitives.Neutral.10}"
+    },
+    "White": {
+      "$type": "color",
+      "$value": "#ffffff"
+    }
+  },
+  "Text": {
+    "Error": {
+      "$type": "color",
+      "$value": "{Accent.Error.90}"
+    },
+    "Link": {
+      "Focus": {
+        "$type": "color",
+        "$value": "{Primitives.Purple.30}"
+      },
+      "Hover": {
+        "$type": "color",
+        "$value": "{Primitives.Purple.80}"
+      },
+      "Inactive": {
+        "$type": "color",
+        "$value": "{Primitives.Neutral.50}"
+      },
+      "OnDark-Hover": {
+        "$type": "color",
+        "$value": "{Primitives.Purple.20}"
+      },
+      "OnDark-Rest": {
+        "$type": "color",
+        "$value": "{Primitives.Purple.40}"
+      },
+      "Pressed": {
+        "$type": "color",
+        "$value": "{Primitives.Purple.100}"
+      },
+      "Rest": {
+        "$type": "color",
+        "$value": "{Primitives.Purple.90}"
+      }
+    },
+    "OnDark": {
+      "$type": "color",
+      "$value": "{Primitives.Neutral.White}"
+    },
+    "Primary": {
+      "$type": "color",
+      "$value": "{Primitives.Neutral.100}"
+    },
+    "Secondary": {
+      "$type": "color",
+      "$value": "{Primitives.Neutral.70}"
+    },
+    "Subdued": {
+      "$type": "color",
+      "$value": "{Primitives.Neutral.50}"
+    },
+    "Sucess": {
+      "$type": "color",
+      "$value": "{Accent.Success.90}"
+    },
+    "Warning": {
+      "$type": "color",
+      "$value": "{Accent.Warning.90}"
+    }
+  },
+  "for Specs": {
+    "Margin": {
+      "$type": "color",
+      "$value": "#0dd3ff80",
+      "$description": "mark Margins in specifications for Dev. Share in Dev mode only"
+    },
+    "Padding": {
+      "$type": "color",
+      "$value": "#52ff5b80",
+      "$description": "Mark paddings in specifications for developers. Share in DEV mode"
+    }
+  }
+}
