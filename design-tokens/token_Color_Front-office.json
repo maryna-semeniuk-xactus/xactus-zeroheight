@@ -186,7 +186,7 @@
       "Success": {
         "10": {
           "$type": "color",
-          "$value": "#f6faf1"
+          "$value": "#f6faf5"
         },
         "20": {
           "$type": "color",
