@@ -1,0 +1,151 @@
+{
+  "Corner-radius": {
+    "Large": {
+      "$type": "number",
+      "$value": "{Primitives.8px}",
+      "$description": "Corner radius for large, content-light UI elements. If not absolutely sure, use the Medium corner radius."
+    },
+    "Medium": {
+      "$type": "number",
+      "$value": "{Primitives.4px}",
+      "$description": "Default corner radius. Used in buttons, cards, input fields and pretty much everything that has rounded corners."
+    },
+    "Small": {
+      "$type": "number",
+      "$value": "{Primitives.2px}",
+      "$description": "Used in smaller elements, less than 16x16px. If not absolutely sure, use the Medium corner radius."
+    }
+  },
+  "Line-height": {
+    "Condensed": {
+      "$type": "number",
+      "$value": "{Primitives.24px}"
+    },
+    "Medium (default)": {
+      "$type": "number",
+      "$value": "{Primitives.32px}"
+    },
+    "Tall": {
+      "$type": "number",
+      "$value": "{Primitives.40px}"
+    }
+  },
+  "Padding": {
+    "Large": {
+      "$type": "number",
+      "$value": "{Primitives.40px}",
+      "$description": "Larger padding for content-light layouts"
+    },
+    "Main": {
+      "$type": "number",
+      "$value": "{Primitives.24px}",
+      "$description": "Default padding for pages and individual cards"
+    },
+    "Small": {
+      "$type": "number",
+      "$value": "{Primitives.16px}",
+      "$description": "Padding for tight layouts"
+    },
+    "Tiny": {
+      "$type": "number",
+      "$value": "{Primitives.8px}",
+      "$description": "Component level padding"
+    }
+  },
+  "Primitives": {
+    "10px": {
+      "$type": "number",
+      "$value": 10,
+      "$description": "Spacing for exceptional cases. Avoid if possible."
+    },
+    "128px": {
+      "$type": "number",
+      "$value": 128
+    },
+    "12px": {
+      "$type": "number",
+      "$value": 12,
+      "$description": "Spacing for tight layouts."
+    },
+    "16px": {
+      "$type": "number",
+      "$value": 16,
+      "$description": "Main spacing."
+    },
+    "192px": {
+      "$type": "number",
+      "$value": 192
+    },
+    "20px": {
+      "$type": "number",
+      "$value": 20
+    },
+    "24px": {
+      "$type": "number",
+      "$value": 24,
+      "$description": "Main padding."
+    },
+    "2px": {
+      "$type": "number",
+      "$value": 2,
+      "$description": "Extremely small spacing. Avoid if possible."
+    },
+    "32px": {
+      "$type": "number",
+      "$value": 32
+    },
+    "40px": {
+      "$type": "number",
+      "$value": 40
+    },
+    "48px": {
+      "$type": "number",
+      "$value": 48
+    },
+    "4px": {
+      "$type": "number",
+      "$value": 4,
+      "$description": "Base unit.\nUse as a small spacing, e.g. between a label and an input field."
+    },
+    "64px": {
+      "$type": "number",
+      "$value": 64
+    },
+    "8px": {
+      "$type": "number",
+      "$value": 8,
+      "$description": "Use a spacing or padding within low-level components e.g. between a checkbox and a label."
+    },
+    "96px": {
+      "$type": "number",
+      "$value": 96
+    }
+  },
+  "Spacing": {
+    "Large": {
+      "$type": "number",
+      "$value": "{Primitives.24px}",
+      "$description": "Large spacing between cards or between screen elements like cards, headers, and page level button groups."
+    },
+    "Main": {
+      "$type": "number",
+      "$value": "{Primitives.16px}",
+      "$description": "Main spacing between the items in one line (input fields, set of buttons, etc.) and between lines inside a card."
+    },
+    "Small": {
+      "$type": "number",
+      "$value": "{Primitives.8px}",
+      "$description": "Spacing within low-level components e.g. between a checkbox and a label."
+    },
+    "Tiny": {
+      "$type": "number",
+      "$value": "{Primitives.4px}",
+      "$description": "Spacing between a label and a field, padding inside a menu item"
+    },
+    "XLarge": {
+      "$type": "number",
+      "$value": "{Primitives.32px}",
+      "$description": "Spacing between large groups of content, e.g., two independent upload sections, wide columns of text, etc."
+    }
+  }
+}
