@@ -1,90 +1,12 @@
 {
-  "Accent": {
-    "Error": {
-      "10": {
-        "$type": "color",
-        "$value": "#fdf7f6"
-      },
-      "100": {
-        "$type": "color",
-        "$value": "#a0231d"
-      },
-      "20": {
-        "$type": "color",
-        "$value": "#f9e9e6"
-      },
-      "30": {
-        "$type": "color",
-        "$value": "#f7d9d4"
-      },
-      "80": {
-        "$type": "color",
-        "$value": "#e05952"
-      },
-      "90": {
-        "$type": "color",
-        "$value": "#cb2d25"
-      }
-    },
-    "General": {
-      "10": {
-        "$type": "color",
-        "$value": "{Primitives.Purple.10}"
-      },
-      "100": {
-        "$type": "color",
-        "$value": "{Primitives.Purple.100}"
-      },
-      "20": {
-        "$type": "color",
-        "$value": "{Primitives.Purple.20}"
-      },
-      "80": {
-        "$type": "color",
-        "$value": "{Primitives.Purple.80}"
-      },
-      "90": {
-        "$type": "color",
-        "$value": "{Primitives.Purple.90}"
-      }
-    },
-    "Success": {
-      "10": {
-        "$type": "color",
-        "$value": "#f6faf5"
-      },
-      "20": {
-        "$type": "color",
-        "$value": "#e7f1e4"
-      },
-      "90": {
-        "$type": "color",
-        "$value": "#178a00"
-      }
-    },
-    "Warning": {
-      "10": {
-        "$type": "color",
-        "$value": "#fdf9f6"
-      },
-      "20": {
-        "$type": "color",
-        "$value": "#f9eee6"
-      },
-      "90": {
-        "$type": "color",
-        "$value": "#fe7c0a"
-      }
-    }
-  },
   "Border": {
     "Accented": {
       "$type": "color",
-      "$value": "{Accent.General.90}"
+      "$value": "{Primitives.Accent.General.90}"
     },
     "Error": {
       "$type": "color",
-      "$value": "{Accent.Error.90}"
+      "$value": "{Primitives.Accent.Error.90}"
     },
     "Focused": {
       "$type": "color",
@@ -100,49 +22,11 @@
     },
     "Success": {
       "$type": "color",
-      "$value": "{Accent.Success.90}"
+      "$value": "{Primitives.Accent.Success.90}"
     },
     "Warning": {
       "$type": "color",
-      "$value": "{Accent.Warning.90}"
-    }
-  },
-  "Brand": {
-    "Cobalt": {
-      "$type": "color",
-      "$value": "#0072da"
-    },
-    "DarkPurple": {
-      "$type": "color",
-      "$value": "#5c068c"
-    },
-    "Emerald": {
-      "$type": "color",
-      "$value": "#008264"
-    },
-    "Gold": {
-      "$type": "color",
-      "$value": "#f4af23"
-    },
-    "LightPurple": {
-      "$type": "color",
-      "$value": "#a08bcb"
-    },
-    "Melon": {
-      "$type": "color",
-      "$value": "#f87c5d"
-    },
-    "Mint": {
-      "$type": "color",
-      "$value": "#28d2d1"
-    },
-    "Red": {
-      "$type": "color",
-      "$value": "#b21616"
-    },
-    "Rose": {
-      "$type": "color",
-      "$value": "#e63888"
+      "$value": "{Primitives.Accent.Warning.90}"
     }
   },
   "Button": {
@@ -184,29 +68,29 @@
       "Accented": {
         "Hover": {
           "$type": "color",
-          "$value": "{Accent.Error.80}"
+          "$value": "{Primitives.Accent.Error.80}"
         },
         "Pressed": {
           "$type": "color",
-          "$value": "{Accent.Error.100}"
+          "$value": "{Primitives.Accent.Error.100}"
         },
         "Rest": {
           "$type": "color",
-          "$value": "{Accent.Error.90}"
+          "$value": "{Primitives.Accent.Error.90}"
         }
       },
       "Subdued": {
         "Focused": {
           "$type": "color",
-          "$value": "{Accent.Error.30}"
+          "$value": "{Primitives.Accent.Error.30}"
         },
         "Hover": {
           "$type": "color",
-          "$value": "{Accent.Error.10}"
+          "$value": "{Primitives.Accent.Error.10}"
         },
         "Pressed": {
           "$type": "color",
-          "$value": "{Accent.Error.20}"
+          "$value": "{Primitives.Accent.Error.20}"
         },
         "Rest": {
           "$type": "color",
@@ -222,7 +106,7 @@
   "Icon": {
     "Accented": {
       "$type": "color",
-      "$value": "{Accent.General.90}"
+      "$value": "{Primitives.Accent.General.90}"
     },
     "Default": {
       "$type": "color",
@@ -230,7 +114,7 @@
     },
     "Error": {
       "$type": "color",
-      "$value": "{Accent.Error.90}"
+      "$value": "{Primitives.Accent.Error.90}"
     },
     "Inactive": {
       "$type": "color",
@@ -242,14 +126,134 @@
     },
     "Success": {
       "$type": "color",
-      "$value": "{Accent.Success.90}"
+      "$value": "{Primitives.Accent.Success.90}"
     },
     "Warning": {
       "$type": "color",
-      "$value": "{Accent.Warning.90}"
+      "$value": "{Primitives.Accent.Warning.90}"
     }
   },
   "Primitives": {
+    "Accent": {
+      "Error": {
+        "10": {
+          "$type": "color",
+          "$value": "#fdf7f6"
+        },
+        "100": {
+          "$type": "color",
+          "$value": "#a0231d"
+        },
+        "20": {
+          "$type": "color",
+          "$value": "#f9e9e6"
+        },
+        "30": {
+          "$type": "color",
+          "$value": "#f7d9d4"
+        },
+        "80": {
+          "$type": "color",
+          "$value": "#e05952"
+        },
+        "90": {
+          "$type": "color",
+          "$value": "#cb2d25"
+        }
+      },
+      "General": {
+        "10": {
+          "$type": "color",
+          "$value": "{Primitives.Purple.10}"
+        },
+        "100": {
+          "$type": "color",
+          "$value": "{Primitives.Purple.100}"
+        },
+        "20": {
+          "$type": "color",
+          "$value": "{Primitives.Purple.20}"
+        },
+        "80": {
+          "$type": "color",
+          "$value": "{Primitives.Purple.80}"
+        },
+        "90": {
+          "$type": "color",
+          "$value": "{Primitives.Purple.90}"
+        }
+      },
+      "Success": {
+        "10": {
+          "$type": "color",
+          "$value": "#f6faf5"
+        },
+        "20": {
+          "$type": "color",
+          "$value": "#e7f1e4"
+        },
+        "30": {
+          "$type": "color",
+          "$value": "#cee9c6"
+        },
+        "90": {
+          "$type": "color",
+          "$value": "#178a00"
+        }
+      },
+      "Warning": {
+        "10": {
+          "$type": "color",
+          "$value": "#fdf9f6"
+        },
+        "20": {
+          "$type": "color",
+          "$value": "#f9eee6"
+        },
+        "90": {
+          "$type": "color",
+          "$value": "#fe7c0a"
+        }
+      }
+    },
+    "Brand": {
+      "Cobalt": {
+        "$type": "color",
+        "$value": "#0072da"
+      },
+      "DarkPurple": {
+        "$type": "color",
+        "$value": "#5c068c"
+      },
+      "Emerald": {
+        "$type": "color",
+        "$value": "#008264"
+      },
+      "Gold": {
+        "$type": "color",
+        "$value": "#f4af23"
+      },
+      "LightPurple": {
+        "$type": "color",
+        "$value": "#a08bcb"
+      },
+      "Melon": {
+        "$type": "color",
+        "$value": "#f87c5d"
+      },
+      "Mint": {
+        "$type": "color",
+        "$value": "#28d2d1"
+      },
+      "Red": {
+        "$type": "color",
+        "$value": "#b21616"
+      },
+      "Rose": {
+        "$type": "color",
+        "$value": "#e63888"
+      }
+    },
     "Neutral": {
       "10": {
         "$type": "color",
@@ -357,6 +361,10 @@
       "3": {
         "$type": "color",
         "$value": "{Primitives.Neutral.20}"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "{Primitives.Neutral.30}"
       }
     },
     "Hover": {
@@ -375,7 +383,7 @@
   "Text": {
     "Error": {
       "$type": "color",
-      "$value": "{Accent.Error.90}"
+      "$value": "{Primitives.Accent.Error.90}"
     },
     "Link": {
       "Focus": {
@@ -425,11 +433,11 @@
     },
     "Sucess": {
       "$type": "color",
-      "$value": "{Accent.Success.90}"
+      "$value": "{Primitives.Accent.Success.90}"
     },
     "Warning": {
       "$type": "color",
-      "$value": "{Accent.Warning.90}"
+      "$value": "{Primitives.Accent.Warning.90}"
     }
   },
   "for Specs": {
