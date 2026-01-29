@@ -50,6 +50,11 @@
       "$type": "number",
       "$value": "{Primitives.8px}",
       "$description": "Component level padding"
+    },
+    "XLarge": {
+      "$type": "number",
+      "$value": "{Primitives.48px}",
+      "$description": "Extra large padding for content-light layouts. Use in case of nested groups."
     }
   },
   "Primitives": {
